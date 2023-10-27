@@ -5,6 +5,7 @@ import 'package:pic_puzzle_game/MyData.dart';
 import 'package:pic_puzzle_game/Second_Page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+// ignore: must_be_immutable
 class PlayPage extends StatefulWidget {
   int curent_pos, cur_level;
 

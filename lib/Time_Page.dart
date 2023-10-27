@@ -6,6 +6,7 @@ import 'package:pic_puzzle_game/Second_Time.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 
+// ignore: must_be_immutable
 class TimeGame extends StatefulWidget {
   int time_pos,time_level;
   TimeGame(this.time_pos,this.time_level);
